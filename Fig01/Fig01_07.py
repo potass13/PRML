@@ -37,7 +37,7 @@ def main():
 			plt.text(0, -1.2, 'ln $\lambda$ = $-\infty$', fontsize=12)
 		plt.scatter(x, t, s=60, c='white', linewidths='2', edgecolors='blue')
 		plt.plot(xx, np.sin(2.*np.pi*xx), color='green', linestyle='dashed')
-		plt.plot(xx, np.polyval(w[::-1], xx), color='red')
+		plt.plot(xx, y(w, xx), color='red')
 	
 	plt.show()
 
