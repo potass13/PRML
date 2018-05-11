@@ -18,7 +18,7 @@ def rms_error(p, df, f):
 def main():
 	M = 9
 	N = 10
-	lnL = np.linspace(-37, -20)
+	lnL = np.linspace(-37, 0)
 	Lbd = np.exp(lnL)
 	sigma = 0.3
 	
